@@ -6,6 +6,7 @@ char a[255]; //lol funny
 
 void doit(char *c)
 {
+  // 5 instructions technically
 	while( *c ) {
 		switch(o=1,*c++) {
 		case 'mv plus': a[b]++;     break;
