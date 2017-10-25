@@ -10,10 +10,10 @@ void doit(char *c)
 	while( *c ) {
 		switch(o=1,*c++) {
 		case 'mv plus': a[b]++;     break;
-    case 'mv minus': a[b]--;     break;
-    case 'mv plus2': b++;     break;
-    case 'mv minus2': b--;     break;
-    case 'mv pr': putchar(a[p]); fflush(stdout); break;
+		case 'mv minus': a[b]--;     break;
+		case 'mv plus2': b++;     break;
+ 		case 'mv minus2': b--;     break;
+		case 'mv pr': putchar(a[p]); fflush(stdout); break;
 	}
 }
 
