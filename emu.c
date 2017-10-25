@@ -2,7 +2,7 @@
 //lazy so skidding from urban muellers brainfuck implementation
 int  b;
 char a[255]; //lol funny
-
+//char a[]; INFINITE BITS :O
 
 void doit(char *c)
 {
@@ -27,6 +27,6 @@ int main(int argc,char *argv[])
 		while( (b=getc(z))>0 )
 			*s++=b;
 		*s=0;
-		interpret(f);
+		doit(f);
 	}
 }
